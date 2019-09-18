@@ -1,0 +1,19 @@
+export enum Terrain {
+  grass,
+  GRASSHILLS,
+  grassMountain,
+  plains,
+  plainsHills,
+  plainsMountain,
+  desert,
+  desertHills,
+  desertMountain,
+  tundra,
+  tundraHills,
+  tundraMountain,
+  snow,
+  snowHills,
+  snowMountain,
+  coast,
+  ocean
+}
