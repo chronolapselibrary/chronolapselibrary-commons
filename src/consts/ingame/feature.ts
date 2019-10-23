@@ -1,11 +1,12 @@
-export enum Feature {
+export enum FeatureType {
   none,
   floodplains,
   ice,
-  jungle,
-  forest,
+  woods,
+  rainForest,
   oasis,
   marsh,
+  mountain,
   barrierReef,
   cliffsDover,
   craterLake,

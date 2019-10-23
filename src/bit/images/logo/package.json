@@ -1,0 +1,16 @@
+{
+  "name": "@bit/chronolapselibrary.assets.images.logo",
+  "version": "0.1.0",
+  "homepage": "https://bit.dev/chronolapselibrary/assets/images/logo",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.0.1",
+      "tester": "bit.envs/testers/jest@22.4.3"
+    }
+  }
+}

@@ -18,7 +18,7 @@ const PropsDefault: Required<
 type Props = PropsBase & typeof PropsDefault;
 
 export { defaultValue as brandBarDefaultValue };
-export type BrandBarProps = PropsBase;
+export type BrandBarProps = Props;
 
 const BrandBar: React.FC<PropsBase> = (_props: PropsBase) => {
   const props = _props as Props;

@@ -1,0 +1,13 @@
+export { coast } from './coast.svg';
+export { desert } from './desert.svg';
+export { desertHill } from './desertHill.svg';
+export { grassland } from './grassland.svg';
+export { grasslandHill } from './grasslandHill.svg';
+export { lake } from './lake.svg';
+export { ocean } from './ocean.svg';
+export { plains } from './plains.svg';
+export { plainsHill } from './plainsHill.svg';
+export { snow } from './snow.svg';
+export { snowHill } from './snowHill.svg';
+export { tundra } from './tundra.svg';
+export { tundraHill } from './tundraHill.svg';

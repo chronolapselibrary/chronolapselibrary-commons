@@ -16,7 +16,7 @@ const PropsDefault: Required<
 type Props = PropsBase & typeof PropsDefault;
 
 export { defaultValue as brandTypographyDefaultValue };
-export type BrandTypographyProps = PropsBase;
+export type BrandTypographyProps = Props;
 
 const BrandTypography = (_props: PropsBase) => {
   const props = _props as Props;

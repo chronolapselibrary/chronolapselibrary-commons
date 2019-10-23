@@ -14,13 +14,19 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@bit/chronolapselibrary.assets.images.ingame": "file:./src/bit/images/ingame",
+    "@bit/chronolapselibrary.assets.images.logo": "file:./src/bit/images/logo"
+  },
   "peerDependencies": {
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0",
     "react-router-dom": ">=5.0.1",
     "react-scrollbars-custom": ">=4.0.20",
-    "react-use": ">=12.2.0"
+    "react-use": ">=12.2.0",
+    "@material-ui/core": "^4.4.2",
+    "@material-ui/icons": "^4.4.1",
+    "@material-ui/styles": "^4.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
@@ -71,14 +77,13 @@
       "compiler": "bit.envs/compilers/react-typescript@3.0.1",
       "tester": "bit.envs/testers/jest@22.4.3"
     },
-    "componentsDefaultDirectory": "components/{name}",
+    "componentsDefaultDirectory": "src/bit/{name}",
     "packageManager": "npm",
     "resolveModules": {
       "aliases": {
         "@src": "./src",
         "@components": "./src/components",
-        "@themes": "./src/themes",
-        "@assets": "./src/assets"
+        "@themes": "./src/themes"
       }
     }
   },
@@ -86,7 +91,7 @@
     "hooks": {
       "pre-commit": [
         "lint-staged",
-        "license-checker --csv --out license/statement.csv --customPath license/statementConfig.json"
+        "license/exportStatement.js --json --out license/statement.json --customPath license/statementConfig.json"
       ]
     }
   },

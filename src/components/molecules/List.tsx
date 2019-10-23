@@ -15,7 +15,7 @@ const PropsDefault: Required<
 type Props = PropsBase & typeof PropsDefault;
 
 export { defaultValue as listDefaultValue };
-export type ListProps = PropsBase;
+export type ListProps = Props;
 
 const List: React.FC<PropsBase> = (_props: PropsBase) => {
   const props = _props as Props;

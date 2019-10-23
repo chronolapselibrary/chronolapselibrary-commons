@@ -19,7 +19,7 @@ const PropsDefault: Required<
 type Props = PropsBase & typeof PropsDefault;
 
 export { defaultValue as navigationDefaultValue };
-export type NavigationProps = PropsBase;
+export type NavigationProps = Props;
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

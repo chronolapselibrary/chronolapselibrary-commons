@@ -17,7 +17,7 @@ const PropsDefault: Required<
 type Props = PropsBase & typeof PropsDefault;
 
 export { defaultValue as signinDefaultValue };
-export type SigninProps = PropsBase;
+export type SigninProps = Props;
 
 const useStyles = makeStyles((size: number) =>
   createStyles({

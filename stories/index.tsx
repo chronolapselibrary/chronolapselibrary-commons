@@ -16,6 +16,9 @@ storiesOf('atoms', module)
   })
   .add('List Item', () => {
     return <index.ListItem />;
+  })
+  .add('IngameImage', () => {
+    return <index.IngameImage type={'civic'} key={'codeOfLaw'} />;
   });
 
 storiesOf('molecules', module)
@@ -31,6 +34,9 @@ storiesOf('molecules', module)
   })
   .add('Signin', () => {
     return <index.Signin />;
+  })
+  .add('Tile', () => {
+    return <index.Tile />;
   });
 
 storiesOf('organisms', module)
@@ -40,4 +46,7 @@ storiesOf('organisms', module)
   })
   .add('Navigation', () => {
     return <index.Navigation />;
+  })
+  .add('PlayMap', () => {
+    return <index.PlayMap />;
   });

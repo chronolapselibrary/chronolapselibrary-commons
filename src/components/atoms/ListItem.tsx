@@ -17,7 +17,7 @@ const PropsDefault: Required<
 > = defaultValue;
 type Props = PropsBase & typeof PropsDefault;
 export { defaultValue as listItemDefaultValue };
-export type ListItemProps = PropsBase;
+export type ListItemProps = Props;
 
 const ListItem = (_props: PropsBase) => {
   const props = _props as Props;
